@@ -37,7 +37,7 @@
 				
 				<a href="" class="btn btn-warning navbar-btn navbar-right">Download</a>
 				<ul class="nav navbar-nav">
-					<li><a href="#about">About</a>
+					<li><a href="#gallery">Gallery</a>
 					<li><a href="#feeback">Feedback</a>
 					<li><a href="#projects">Projects</a>
 					<li><a href="#contact">Contact Us</a>
@@ -62,7 +62,7 @@
 
 	</div> <!-- End jumbotran -->
 
-	<div class="container">
+	<div class="container"> <!-- Feedback -->
 		<section>
 			<div class="page-header" id="feedback">
 				<h2>Feedback<small> Your feedback is highly appreciated</small></h2>
@@ -89,9 +89,57 @@
 						<footer>John Doe</footer>
 					</blockquote>
 				</div>
-			</div>
+			</div> <!-- End row -->
 		</section>	
 	</div> <!--End container -->
+
+	<!-- call to action -->
+	<section>
+		<div class="well">
+			<div class="container text-center">
+				<h3>Subscribe for more</h3>
+				<p>Enter your name and email</p>
+
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<label for="subscription">Subscribe</label>
+						<input type="text" class="form-control" id="#subscription" placeholder="Yourname">
+					</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="text" class="form-control" id="#email" placeholder="Enter your Email">
+					</div>
+
+					<button type="submit" class="btn btn-warning">Subscribe</button>
+					<hr>
+				</form>
+			</div><!-- end container-->
+		</div> <!-- end well -->
+	</section> <!-- end call to action -->
+
+	<!-- Gallery -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="gallery">
+				<h2>Gallery.<small> A little about me</small></h2>
+			</div>
+
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel"> <!-- Carousel -->
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active"><img src="images/catalog_items.png" alt="Catalog Items"></div>
+					<div class="item"><img src="images/conf_central_app.png" alt="Conference Central"></div>
+					<div class="item"><img src="images/movie_trailer.png" alt="Movie Trailer"></div>
+					<div class="item"><img src="images/P2SShot.png" alt="Database"></div>
+				</div>
+			</div> <!-- end Carousel -->
+		</section>
+	</div>
 
 
 	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
